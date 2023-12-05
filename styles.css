@@ -1,0 +1,365 @@
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a box-sizing border-box model */
+* {
+    box-sizing: border-box;
+}
+.hero h1 {
+    color: white;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #007BFF;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Header Styles */
+header {
+    background-color: #333;
+    padding: 15px;
+    text-align: center; /* Center-align the content */
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Product Page Styles */
+.product-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product-details img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-description {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+.price {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.buy-now-button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.buy-now-button:hover {
+    background-color: #45a049;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    color: white; /* Set text color to white */
+}
+
+
+body {
+
+    background-image: url('gucci background 2.jpg');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+header {
+    /* Your header styles */
+}
+
+
+
+/* Image Section Styles */
+.image-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 0;
+}
+
+/* Image Container Styles */
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    width: 100%; /* Make the images fill the container */
+    max-width: 300px; /* Set a maximum width for responsiveness */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.image-description {
+    font-size: 1rem;
+    color: #555;
+}
+
+
+/* Buy Now Button Styles */
+.buy-now-button {
+    display: block;
+    background-color: #4CAF50; /* Green color, you can customize */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    transition: background-color 0.3s;
+}
+
+.buy-now-button:hover {
+    background-color: #45a049; /* Darker green color on hover, you can customize */
+}
+
+
+/* Logo Styles */
+.logo {
+    width: 25px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+
+}
+
+
+.logo {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+}
+
+/* Main Content Styles */
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: #28a745;
+    border-radius: 5px;
+}
+
+
+/* Product Page Styles */
+.product-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product-details img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-description {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.buy-now-button {
+    display: inline-block;
+    background-color: #4CAF50; /* Green color, you can customize */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.buy-now-button:hover {
+    background-color: #45a049;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.footer-content p:last-child {
+    margin-top: 10px;
+}
+
+.footer-content p:last-child:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Responsive Styles... */
+
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        margin-bottom: 15px;
+    }
+
+    nav {
+        margin-top: 15px;
+    }
+}
+
